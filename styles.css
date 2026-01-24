@@ -979,9 +979,13 @@ body {
 }
 
 .button-loading {
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
+}
+
+.button-loading.show {
+  display: flex;
 }
 
 .spinner {

@@ -29,7 +29,7 @@ function initWaitlistForm() {
 
     // Show loading state
     buttonText.hidden = true;
-    buttonLoading.hidden = false;
+    buttonLoading.classList.add('show');
     form.querySelector('button').disabled = true;
 
     try {
@@ -64,7 +64,7 @@ function initWaitlistForm() {
 
       // Reset button state
       buttonText.hidden = false;
-      buttonLoading.hidden = true;
+      buttonLoading.classList.remove('show');
       form.querySelector('button').disabled = false;
 
       // Show error message (could be enhanced with a toast notification)
