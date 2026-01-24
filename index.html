@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glow Glucose - Your Calm Companion for Gestational Diabetes</title>
+  <meta name="description" content="A peaceful space for women navigating gestational diabetes. Track meals with AI, log blood sugar, and view your trends - all in one calming app.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' fill='%23F5E6D3'/></svg>">
+</head>
+<body>
+  <!-- Animated Stars Background -->
+  <div class="stars-container" aria-hidden="true">
+    <div class="star star-1">★</div>
+    <div class="star star-2">★</div>
+    <div class="star star-3">★</div>
+    <div class="star star-4">★</div>
+    <div class="star star-5">★</div>
+    <div class="star star-6">★</div>
+    <div class="star star-7">★</div>
+    <div class="star star-8">★</div>
+    <div class="star star-9">★</div>
+    <div class="star star-10">★</div>
+    <div class="star star-11">★</div>
+    <div class="star star-12">★</div>
+  </div>
+
+  <!-- Diffuse Glow Background -->
+  <div class="glow-bg" aria-hidden="true">
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+    <div class="glow glow-3"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <div class="logo-icon">
+          <div class="logo-glow"></div>
+          <div class="logo-moon">
+            <div class="crater crater-1"></div>
+            <div class="crater crater-2"></div>
+          </div>
+          <span class="logo-star logo-star-1">★</span>
+          <span class="logo-star logo-star-2">★</span>
+          <span class="logo-star logo-star-3">★</span>
+        </div>
+        <div class="logo-text">
+          <span class="logo-name">Glow</span>
+          <span class="logo-tagline">Glucose</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <h1 class="hero-title">
+          A calm space for your<br>
+          <span class="gradient-text">gestational diabetes</span> journey
+        </h1>
+        <p class="hero-subtitle">
+          Glow Glucose is designed to support women during pregnancy with gentle tracking,
+          AI-powered meal insights, and beautiful visualizations of your health data.
+        </p>
+        <a href="#waitlist" class="cta-button">
+          Join the Waitlist
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+      </div>
+
+      <div class="hero-mockup">
+        <div class="iphone-frame">
+          <div class="iphone-notch"></div>
+          <div class="iphone-screen">
+            <!-- App Screen Content -->
+            <div class="app-screen">
+              <!-- App Header with Moon -->
+              <div class="app-header">
+                <div class="app-moon">
+                  <div class="app-moon-glow"></div>
+                  <div class="app-moon-body">
+                    <div class="app-crater app-crater-1"></div>
+                    <div class="app-crater app-crater-2"></div>
+                    <div class="app-crater app-crater-3"></div>
+                  </div>
+                  <span class="app-star app-star-1">★</span>
+                  <span class="app-star app-star-2">★</span>
+                  <span class="app-star app-star-3">★</span>
+                  <span class="app-star app-star-4">★</span>
+                </div>
+              </div>
+
+              <!-- Fasting BG Card -->
+              <div class="app-card fasting-card">
+                <div class="fasting-header">
+                  <div class="fasting-icon">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="white">
+                      <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/>
+                    </svg>
+                  </div>
+                  <div class="fasting-text">
+                    <span class="fasting-label">Fasting Blood Glucose</span>
+                    <span class="fasting-sublabel">Morning reading</span>
+                  </div>
+                </div>
+                <div class="fasting-value">
+                  <span class="fasting-number">92</span>
+                  <span class="fasting-unit">mg/dL</span>
+                  <span class="fasting-status">Good</span>
+                </div>
+              </div>
+
+              <!-- Date Selector -->
+              <div class="app-dates">
+                <div class="date-item">
+                  <span class="date-day">Mon</span>
+                  <span class="date-num">20</span>
+                </div>
+                <div class="date-item active">
+                  <span class="date-day">Tue</span>
+                  <span class="date-num">21</span>
+                </div>
+                <div class="date-item">
+                  <span class="date-day">Wed</span>
+                  <span class="date-num">22</span>
+                </div>
+                <div class="date-item">
+                  <span class="date-day">Thu</span>
+                  <span class="date-num">23</span>
+                </div>
+              </div>
+
+              <!-- Today Section -->
+              <div class="app-today">
+                <div class="today-header">
+                  <div>
+                    <span class="today-title">Today</span>
+                    <span class="today-date">January 21, 2025</span>
+                  </div>
+                  <div class="today-carbs">
+                    <span class="carbs-value">87g</span>
+                    <span class="carbs-label">Total carbs</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Meal Cards -->
+              <div class="app-meals">
+                <div class="meal-card">
+                  <div class="meal-icon meal-breakfast">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M17 8h1a4 4 0 1 1 0 8h-1"/>
+                      <path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"/>
+                      <line x1="6" y1="2" x2="6" y2="4"/>
+                      <line x1="10" y1="2" x2="10" y2="4"/>
+                      <line x1="14" y1="2" x2="14" y2="4"/>
+                    </svg>
+                  </div>
+                  <div class="meal-info">
+                    <span class="meal-name">Breakfast</span>
+                    <span class="meal-carbs breakfast-carbs">32g carbs</span>
+                  </div>
+                </div>
+                <div class="meal-card">
+                  <div class="meal-icon meal-lunch">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M7 21h10"/>
+                      <path d="M12 21a9 9 0 0 0 9-9H3a9 9 0 0 0 9 9Z"/>
+                      <path d="M11.38 12a2.4 2.4 0 0 1-.4-4.77 2.4 2.4 0 0 1 3.2-2.77 2.4 2.4 0 0 1 3.47-.63 2.4 2.4 0 0 1 3.37 3.37 2.4 2.4 0 0 1-1.1 3.7 2.51 2.51 0 0 1 .03 1.1"/>
+                    </svg>
+                  </div>
+                  <div class="meal-info">
+                    <span class="meal-name">Lunch</span>
+                    <span class="meal-carbs lunch-carbs">28g carbs</span>
+                  </div>
+                </div>
+                <div class="meal-card">
+                  <div class="meal-icon meal-dinner">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/>
+                      <path d="M7 2v20"/>
+                      <path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/>
+                    </svg>
+                  </div>
+                  <div class="meal-info">
+                    <span class="meal-name">Dinner</span>
+                    <span class="meal-carbs dinner-carbs">27g carbs</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Bottom Nav -->
+              <div class="app-nav">
+                <div class="nav-item active">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                  </svg>
+                </div>
+                <div class="nav-item nav-add">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <line x1="12" y1="5" x2="12" y2="19"></line>
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                  </svg>
+                </div>
+                <div class="nav-item">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                  </svg>
+                </div>
+                <div class="nav-item">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/>
+                    <circle cx="12" cy="7" r="4"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="iphone-home-indicator"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features" id="features">
+    <div class="container">
+      <h2 class="section-title">Everything you need, nothing you don't</h2>
+      <p class="section-subtitle">Thoughtfully designed features to support your pregnancy journey</p>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon feature-icon-gold">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+              <circle cx="12" cy="13" r="4"/>
+            </svg>
+          </div>
+          <h3 class="feature-title">AI Meal Logging</h3>
+          <p class="feature-description">
+            Simply snap a photo of your meal and our AI instantly identifies ingredients
+            and calculates carb counts. No more tedious manual entry or guesswork.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon feature-icon-coral">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/>
+            </svg>
+          </div>
+          <h3 class="feature-title">Blood Sugar Logging</h3>
+          <p class="feature-description">
+            Quick and easy glucose logging with smart reminders. Track fasting, pre-meal,
+            and post-meal readings to stay on top of your targets.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon feature-icon-purple">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+            </svg>
+          </div>
+          <h3 class="feature-title">Trends & Charts</h3>
+          <p class="feature-description">
+            Beautiful visualizations help you understand your patterns. See daily, weekly,
+            and monthly trends with averages and insights at a glance.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Waitlist Section -->
+  <section class="waitlist" id="waitlist">
+    <div class="container">
+      <div class="waitlist-card">
+        <div class="waitlist-content">
+          <div class="waitlist-moon">
+            <div class="waitlist-moon-glow"></div>
+            <div class="waitlist-moon-body"></div>
+            <span class="waitlist-star waitlist-star-1">★</span>
+            <span class="waitlist-star waitlist-star-2">★</span>
+          </div>
+          <h2 class="waitlist-title">Be the first to know</h2>
+          <p class="waitlist-subtitle">
+            Join our waitlist and we'll notify you as soon as Glow Glucose is ready.
+            Early supporters will receive exclusive launch perks.
+          </p>
+
+          <form
+            action="https://submit-form.com/YOUR_FORMSPARK_ID"
+            method="POST"
+            class="waitlist-form"
+            id="waitlist-form"
+          >
+            <div class="form-group">
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+                class="form-input"
+                id="email-input"
+              >
+              <button type="submit" class="form-button">
+                <span class="button-text">Join Waitlist</span>
+                <span class="button-loading" hidden>
+                  <svg class="spinner" width="20" height="20" viewBox="0 0 24 24">
+                    <circle class="spinner-circle" cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="3"/>
+                  </svg>
+                </span>
+              </button>
+            </div>
+            <p class="form-note">We respect your privacy. No spam, ever.</p>
+          </form>
+
+          <div class="form-success" id="form-success" hidden>
+            <div class="success-icon">✓</div>
+            <p class="success-text">You're on the list! We'll be in touch soon.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <div class="footer-logo-icon">
+            <div class="footer-moon"></div>
+          </div>
+          <span class="footer-logo-text">Glow Glucose</span>
+        </div>
+
+        <div class="footer-links">
+          <a href="#" class="footer-link">Privacy Policy</a>
+          <a href="#" class="footer-link">Terms & Conditions</a>
+        </div>
+
+        <p class="footer-copyright">
+          © 2025 Glow Glucose. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
