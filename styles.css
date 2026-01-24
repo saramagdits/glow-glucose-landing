@@ -1260,3 +1260,16 @@ body {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Hide decorative elements from Reader Mode and Print */
+@media print {
+  .decorative,
+  .stars-container,
+  .glow-bg,
+  .hero-mockup,
+  .logo-icon,
+  .waitlist-moon,
+  .footer-logo-icon {
+    display: none !important;
+  }
+}

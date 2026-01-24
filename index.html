@@ -22,10 +22,11 @@
             type="image/svg+xml"
             href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' fill='%23F5E6D3'/></svg>"
         />
+        <link rel="alternate" type="text/markdown" href="index.md" title="Markdown version" />
     </head>
     <body>
         <!-- Animated Stars Background -->
-        <div class="stars-container" aria-hidden="true">
+        <div class="stars-container" aria-hidden="true" data-reader-ignore>
             <div class="star star-1">★</div>
             <div class="star star-2">★</div>
             <div class="star star-3">★</div>
@@ -41,7 +42,7 @@
         </div>
 
         <!-- Diffuse Glow Background -->
-        <div class="glow-bg" aria-hidden="true">
+        <div class="glow-bg" aria-hidden="true" data-reader-ignore>
             <div class="glow glow-1"></div>
             <div class="glow glow-2"></div>
             <div class="glow glow-3"></div>
@@ -51,7 +52,7 @@
         <header class="header">
             <div class="container">
                 <div class="logo">
-                    <div class="logo-icon">
+                    <div class="logo-icon" aria-hidden="true" data-reader-ignore>
                         <div class="logo-glow"></div>
                         <div class="logo-moon">
                             <div class="crater crater-1"></div>
@@ -102,8 +103,8 @@
                     </a>
                 </div>
 
-                <div class="hero-mockup">
-                    <div class="iphone-frame">
+                <div class="hero-mockup" role="img" aria-label="iPhone showing the Glow Glucose app home screen with moon phase tracker, blood glucose reading, and meal cards" data-reader-ignore>
+                    <div class="iphone-frame" aria-hidden="true">
                         <div class="iphone-notch"></div>
                         <div class="iphone-screen">
                             <!-- App Screen Content -->
@@ -525,7 +526,7 @@
             <div class="container">
                 <div class="waitlist-card">
                     <div class="waitlist-content">
-                        <div class="waitlist-moon">
+                        <div class="waitlist-moon" aria-hidden="true" data-reader-ignore>
                             <div class="waitlist-moon-glow"></div>
                             <div class="waitlist-moon-body"></div>
                             <span class="waitlist-star waitlist-star-1">★</span>
@@ -599,7 +600,7 @@
             <div class="container">
                 <div class="footer-content">
                     <div class="footer-logo">
-                        <div class="footer-logo-icon">
+                        <div class="footer-logo-icon" aria-hidden="true" data-reader-ignore>
                             <div class="footer-moon"></div>
                         </div>
                         <span class="footer-logo-text">Glow Glucose</span>

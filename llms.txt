@@ -1,0 +1,23 @@
+# Glow Glucose
+
+> A calm, supportive app for women managing gestational diabetes during pregnancy.
+
+## About
+
+Glow Glucose helps pregnant women track meals with AI-powered photo analysis, log blood sugar readings, and visualize glucose trends. The app is designed to reduce the stress of managing gestational diabetes with a peaceful, intuitive interface.
+
+## Key Features
+
+- **AI Meal Logging**: Snap a photo of your meal and get instant carb counts
+- **Blood Sugar Tracking**: Log fasting, pre-meal, and post-meal glucose readings
+- **Smart Reminders**: Never miss a reading with gentle notifications
+- **Trends & Charts**: Understand your patterns with beautiful visualizations
+
+## Status
+
+Currently in development. Waitlist open for early access.
+
+## Links
+
+- [Landing Page](index.md): Main landing page with product overview and waitlist signup
+- [Website](https://glowglucose.com): Live website
