@@ -9,39 +9,59 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 /**
- * Initialize waitlist form with Formspark integration
+ * Initialize waitlist form with Formspark + Botpoison integration
  * Documentation: https://documentation.formspark.io
+ * Botpoison: https://botpoison.com/documentation/getting-started/javascript/
  */
 function initWaitlistForm() {
   const form = document.getElementById('waitlist-form');
+  if (!form) return;
+
   const emailInput = document.getElementById('email-input');
   const buttonText = form.querySelector('.button-text');
   const buttonLoading = form.querySelector('.button-loading');
   const formSuccess = document.getElementById('form-success');
+  const submitButton = form.querySelector('button');
 
-  if (!form) return;
+  // Get public key from form attribute
+  const publicKey = form.dataset.botpoisonPublicKey;
 
-  form.addEventListener('submit', async (e) => {
-    e.preventDefault();
+  // Initialize Botpoison programmatically
+  const botpoison = new Botpoison({ publicKey });
 
+  async function handleSubmit() {
     const email = emailInput.value.trim();
-    if (!email) return;
+    if (!email) {
+      emailInput.focus();
+      return;
+    }
+
+    // Basic email validation
+    if (!emailInput.checkValidity()) {
+      emailInput.reportValidity();
+      return;
+    }
 
     // Show loading state
     buttonText.hidden = true;
     buttonLoading.classList.add('show');
-    form.querySelector('button').disabled = true;
+    submitButton.disabled = true;
 
     try {
-      // Submit to Formspark
-      // Replace YOUR_FORMSPARK_ID with your actual Formspark form ID
-      const response = await fetch(form.action, {
+      // Get botpoison challenge solution
+      const { solution } = await botpoison.challenge();
+
+      // Submit to Formspark with botpoison token
+      const response = await fetch(form.dataset.action, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
           'Accept': 'application/json',
         },
-        body: JSON.stringify({ email }),
+        body: JSON.stringify({
+          email,
+          _botpoison: solution,
+        }),
       });
 
       if (response.ok) {
@@ -65,10 +85,18 @@ function initWaitlistForm() {
       // Reset button state
       buttonText.hidden = false;
       buttonLoading.classList.remove('show');
-      form.querySelector('button').disabled = false;
+      submitButton.disabled = false;
 
-      // Show error message (could be enhanced with a toast notification)
+      // Show error message
       alert('Something went wrong. Please try again.');
+    }
+  }
+
+  submitButton.addEventListener('click', handleSubmit);
+  emailInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      handleSubmit();
     }
   });
 }
