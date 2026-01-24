@@ -409,23 +409,24 @@ body {
 
 /* App Screen Content */
 .app-screen {
+  position: relative;
   height: 100%;
   display: flex;
   flex-direction: column;
   background: linear-gradient(180deg, rgba(245, 230, 211, 0.5) 0%, var(--background) 30%);
-  padding-bottom: 60px;
+  overflow: hidden;
 }
 
 .app-header {
   display: flex;
   justify-content: center;
-  padding: 40px 16px 16px;
+  padding: 36px 16px 12px;
 }
 
 .app-moon {
   position: relative;
-  width: 80px;
-  height: 80px;
+  width: 64px;
+  height: 64px;
 }
 
 .app-moon-glow {
@@ -443,8 +444,8 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 56px;
-  height: 56px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
   background: linear-gradient(135deg, var(--color-cream), var(--muted));
   box-shadow: var(--shadow-lg);
@@ -457,9 +458,9 @@ body {
   opacity: 0.4;
 }
 
-.app-crater-1 { width: 10px; height: 10px; top: 8px; right: 12px; }
-.app-crater-2 { width: 7px; height: 7px; bottom: 14px; left: 12px; }
-.app-crater-3 { width: 5px; height: 5px; top: 22px; left: 8px; }
+.app-crater-1 { width: 8px; height: 8px; top: 6px; right: 8px; }
+.app-crater-2 { width: 5px; height: 5px; bottom: 10px; left: 8px; }
+.app-crater-3 { width: 4px; height: 4px; top: 16px; left: 6px; }
 
 .app-star {
   position: absolute;
@@ -628,6 +629,7 @@ body {
 /* Meal Cards */
 .app-meals {
   padding: 0 12px;
+  padding-bottom: 56px;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -699,29 +701,32 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 12px 20px;
-  background: white;
+  padding: 6px 8px 14px;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
   border-top: 1px solid var(--border);
 }
 
 .nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 8px;
+  border-radius: 10px;
   color: var(--muted-foreground);
-  padding: 8px;
+  transition: all 0.2s ease;
 }
 
 .nav-item.active {
+  background: rgba(180, 167, 214, 0.1);
   color: var(--color-purple);
 }
 
-.nav-add {
-  width: 40px;
-  height: 40px;
-  background: linear-gradient(135deg, var(--color-purple), var(--color-coral));
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
+.nav-label {
+  font-size: 0.45rem;
+  margin-top: 2px;
+  font-weight: 500;
 }
 
 /* ============================================
@@ -1180,17 +1185,25 @@ body {
   }
 
   .app-header {
-    padding-top: 32px;
+    padding-top: 28px;
   }
 
   .app-moon {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
   }
 
   .app-moon-body {
-    width: 42px;
-    height: 42px;
+    width: 36px;
+    height: 36px;
+  }
+
+  .app-nav {
+    padding: 4px 6px 10px;
+  }
+
+  .nav-label {
+    font-size: 0.4rem;
   }
 
   .waitlist-title {
