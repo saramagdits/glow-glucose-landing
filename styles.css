@@ -550,27 +550,60 @@ body {
 /* Date Selector */
 .app-dates {
   display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 6px;
+}
+
+.date-nav-btn {
+  display: flex;
+  align-items: center;
   justify-content: center;
-  gap: 8px;
-  padding: 8px 12px;
+  width: 20px;
+  height: 20px;
+  border: none;
+  background: transparent;
+  color: var(--muted-foreground);
+  border-radius: 50%;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.date-nav-btn:hover {
+  background: var(--secondary);
+}
+
+.date-items {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  gap: 2px;
 }
 
 .date-item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 6px 10px;
-  border-radius: 12px;
+  justify-content: center;
+  min-width: 28px;
+  height: 40px;
+  padding: 4px 2px;
+  border-radius: 10px;
+  background: white;
+  transition: all 0.2s ease;
 }
 
 .date-item.active {
   background: var(--color-purple);
+  box-shadow: 0 2px 8px rgba(180, 167, 214, 0.4);
+  transform: scale(1.05);
 }
 
 .date-day {
-  font-size: 0.5rem;
+  font-size: 0.4rem;
   color: var(--muted-foreground);
   text-transform: uppercase;
+  letter-spacing: 0.02em;
 }
 
 .date-item.active .date-day {
@@ -578,13 +611,15 @@ body {
 }
 
 .date-num {
-  font-size: 0.75rem;
-  font-weight: 600;
+  font-size: 0.65rem;
+  font-weight: 500;
   color: var(--foreground);
+  margin-top: 1px;
 }
 
 .date-item.active .date-num {
   color: white;
+  font-weight: 600;
 }
 
 /* Today Section */
