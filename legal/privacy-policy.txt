@@ -305,37 +305,4 @@ We will respond to your inquiry within 30 days.
 
 --------------------------------------------------------------------------------
 
-APP PRIVACY DETAILS SUMMARY (Apple App Store Privacy Label)
-
-This section summarizes the data collected by Glow Glucose for Apple's App Store privacy nutrition label.
-
-DATA LINKED TO YOU:
-- Health & Fitness: Blood glucose readings, nutritional data
-- User Content: Meal photos (processed, not stored)
-- Identifiers: User ID (for subscription management)
-- Purchases: Purchase history (subscription status)
-
-DATA NOT LINKED TO YOU:
-- Diagnostics: Crash data, performance data
-- Usage Data: App interactions
-
-DATA NOT COLLECTED:
-- Contact Info (email, phone, address)
-- Location Data
-- Contacts
-- Browsing History
-- Search History
-- Sensitive Information
-- Financial Information (payment details handled by Apple)
-
-DATA USE:
-- App Functionality: Primary purpose of all data collection
-- Analytics: Anonymized usage data to improve the app
-- Product Personalization: Settings and preferences
-
-TRACKING:
-This app does not track you across other companies' apps or websites for advertising purposes.
-
---------------------------------------------------------------------------------
-
 Copyright 2026 Glow Glucose. All rights reserved.
