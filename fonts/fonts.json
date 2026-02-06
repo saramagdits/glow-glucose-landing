@@ -1,0 +1,350 @@
+{
+  "$schema": "https://glowglucose.com/design-tokens.schema.json",
+  "meta": {
+    "name": "Glow Glucose Typography Tokens",
+    "version": "1.0.0",
+    "bundle": "bundle-1-fraunces-manrope",
+    "platform": "web",
+    "notes": [
+      "Signature font (Fraunces) is for hero accent and rare high-impact headers only.",
+      "UI font (Manrope) is for all body text, UI labels, cards, buttons, and navigation.",
+      "All sizes are in px. Line-heights are unitless multipliers unless explicitly noted.",
+      "Implementers should map these tokens to CSS variables and semantic classes."
+    ]
+  },
+  "types": {
+    "FontFamilyToken": {
+      "type": "object",
+      "required": ["value", "fallback", "usage"],
+      "properties": {
+        "value": { "type": "string" },
+        "fallback": { "type": "string" },
+        "usage": { "type": "string" }
+      }
+    },
+    "FontWeightToken": {
+      "type": "object",
+      "required": ["value"],
+      "properties": {
+        "value": { "type": "number" }
+      }
+    },
+    "FontSizeToken": {
+      "type": "object",
+      "required": ["value", "unit"],
+      "properties": {
+        "value": { "type": "number" },
+        "unit": { "type": "string", "enum": ["px"] }
+      }
+    },
+    "FluidFontSizeToken": {
+      "type": "object",
+      "required": ["value", "unit", "fluid"],
+      "properties": {
+        "value": { "type": "number" },
+        "unit": { "type": "string", "enum": ["px"] },
+        "fluid": {
+          "type": "object",
+          "required": ["minPx", "maxPx", "cssClamp"],
+          "properties": {
+            "minPx": { "type": "number" },
+            "maxPx": { "type": "number" },
+            "cssClamp": { "type": "string" }
+          }
+        }
+      }
+    },
+    "LineHeightToken": {
+      "type": "object",
+      "required": ["value"],
+      "properties": {
+        "value": { "type": "number" }
+      }
+    },
+    "LetterSpacingToken": {
+      "type": "object",
+      "required": ["value", "unit"],
+      "properties": {
+        "value": { "type": "number" },
+        "unit": { "type": "string", "enum": ["em"] }
+      }
+    },
+    "MeasureToken": {
+      "type": "object",
+      "required": ["value", "unit"],
+      "properties": {
+        "value": { "type": "number" },
+        "unit": { "type": "string", "enum": ["ch"] }
+      }
+    },
+    "TextStyleToken": {
+      "type": "object",
+      "required": [
+        "fontFamily",
+        "fontWeight",
+        "fontSize",
+        "lineHeight",
+        "letterSpacing",
+        "maxWidth",
+        "usage"
+      ],
+      "properties": {
+        "fontFamily": { "type": "string" },
+        "fontWeight": { "type": "number" },
+        "fontSize": {
+          "oneOf": [
+            {
+              "type": "object",
+              "required": ["unit"],
+              "properties": { "unit": { "type": "string" } }
+            },
+            { "type": "string" }
+          ]
+        },
+        "lineHeight": { "type": "number" },
+        "letterSpacing": {
+          "type": "object",
+          "required": ["value", "unit"],
+          "properties": {
+            "value": { "type": "number" },
+            "unit": { "type": "string", "enum": ["em"] }
+          }
+        },
+        "maxWidth": {
+          "oneOf": [
+            { "type": "null" },
+            { "type": "object", "required": ["value", "unit"] }
+          ]
+        },
+        "usage": { "type": "string" }
+      }
+    }
+  },
+  "typography": {
+    "fontFamilies": {
+      "ui": {
+        "value": "Manrope",
+        "fallback": "ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, \"Apple Color Emoji\", \"Segoe UI Emoji\"",
+        "usage": "Default UI and body font for all readable content."
+      },
+      "signature": {
+        "value": "Fraunces",
+        "fallback": "ui-serif, Georgia, \"Times New Roman\", Times, serif",
+        "usage": "Signature font for hero accent phrase and rare high-impact headers only."
+      }
+    },
+    "weights": {
+      "regular": { "value": 400 },
+      "medium": { "value": 500 },
+      "semibold": { "value": 600 },
+      "bold": { "value": 700 }
+    },
+    "sizes": {
+      "xs": {
+        "value": 12,
+        "unit": "px",
+        "fluid": {
+          "minPx": 12,
+          "maxPx": 13,
+          "cssClamp": "clamp(12px, 0.15vw + 11px, 13px)"
+        }
+      },
+      "sm": {
+        "value": 14,
+        "unit": "px",
+        "fluid": {
+          "minPx": 14,
+          "maxPx": 15,
+          "cssClamp": "clamp(14px, 0.2vw + 13px, 15px)"
+        }
+      },
+      "md": {
+        "value": 16,
+        "unit": "px",
+        "fluid": {
+          "minPx": 16,
+          "maxPx": 18,
+          "cssClamp": "clamp(16px, 0.35vw + 15px, 18px)"
+        }
+      },
+      "lg": {
+        "value": 18,
+        "unit": "px",
+        "fluid": {
+          "minPx": 18,
+          "maxPx": 20,
+          "cssClamp": "clamp(18px, 0.35vw + 17px, 20px)"
+        }
+      },
+      "xl": {
+        "value": 20,
+        "unit": "px",
+        "fluid": {
+          "minPx": 20,
+          "maxPx": 24,
+          "cssClamp": "clamp(20px, 0.6vw + 18px, 24px)"
+        }
+      },
+      "2xl": {
+        "value": 24,
+        "unit": "px",
+        "fluid": {
+          "minPx": 24,
+          "maxPx": 32,
+          "cssClamp": "clamp(24px, 1.1vw + 20px, 32px)"
+        }
+      },
+      "3xl": {
+        "value": 30,
+        "unit": "px",
+        "fluid": {
+          "minPx": 30,
+          "maxPx": 44,
+          "cssClamp": "clamp(30px, 1.8vw + 22px, 44px)"
+        }
+      }
+    },
+    "lineHeights": {
+      "tight": { "value": 1.15 },
+      "snug": { "value": 1.3 },
+      "body": { "value": 1.6 }
+    },
+    "letterSpacing": {
+      "tight": { "value": -0.015, "unit": "em" },
+      "normal": { "value": 0, "unit": "em" },
+      "wide": { "value": 0.04, "unit": "em" }
+    },
+    "measure": {
+      "paragraphMaxWidth": { "value": 68, "unit": "ch" },
+      "heroMaxWidth": { "value": 20, "unit": "ch" }
+    },
+    "textStyles": {
+      "hero.title": {
+        "fontFamily": "{typography.fontFamilies.ui.value}",
+        "fontWeight": 700,
+        "fontSize": "{typography.sizes.3xl.fluid.cssClamp}",
+        "lineHeight": 1.15,
+        "letterSpacing": { "value": -0.015, "unit": "em" },
+        "maxWidth": { "value": 20, "unit": "ch" },
+        "usage": "Hero H1 (e.g., 'A calm space for your … journey'). Manrope bold."
+      },
+      "hero.accent": {
+        "fontFamily": "{typography.fontFamilies.signature.value}",
+        "fontWeight": 700,
+        "fontSize": "{typography.sizes.3xl.fluid.cssClamp}",
+        "lineHeight": 1.15,
+        "letterSpacing": { "value": -0.015, "unit": "em" },
+        "maxWidth": null,
+        "usage": "Span inside hero title for emphasized phrase (e.g., 'gestational diabetes'). Fraunces bold."
+      },
+      "hero.subhead": {
+        "fontFamily": "{typography.fontFamilies.ui.value}",
+        "fontWeight": 400,
+        "fontSize": "{typography.sizes.md.fluid.cssClamp}",
+        "lineHeight": 1.6,
+        "letterSpacing": { "value": 0, "unit": "em" },
+        "maxWidth": { "value": 68, "unit": "ch" },
+        "usage": "Hero supporting paragraph."
+      },
+      "section.title": {
+        "fontFamily": "{typography.fontFamilies.ui.value}",
+        "fontWeight": 700,
+        "fontSize": "{typography.sizes.2xl.fluid.cssClamp}",
+        "lineHeight": 1.3,
+        "letterSpacing": { "value": -0.015, "unit": "em" },
+        "maxWidth": null,
+        "usage": "Section heading (e.g., 'Everything you need, nothing you don’t')."
+      },
+      "section.titleSignature": {
+        "fontFamily": "{typography.fontFamilies.signature.value}",
+        "fontWeight": 600,
+        "fontSize": "{typography.sizes.2xl.fluid.cssClamp}",
+        "lineHeight": 1.3,
+        "letterSpacing": { "value": -0.015, "unit": "em" },
+        "maxWidth": null,
+        "usage": "Optional rare signature section heading (use at most once mid-page)."
+      },
+      "section.subhead": {
+        "fontFamily": "{typography.fontFamilies.ui.value}",
+        "fontWeight": 400,
+        "fontSize": "{typography.sizes.sm.fluid.cssClamp}",
+        "lineHeight": 1.6,
+        "letterSpacing": { "value": 0, "unit": "em" },
+        "maxWidth": { "value": 68, "unit": "ch" },
+        "usage": "Small explanatory line under section headings."
+      },
+      "card.title": {
+        "fontFamily": "{typography.fontFamilies.ui.value}",
+        "fontWeight": 600,
+        "fontSize": "{typography.sizes.lg.fluid.cssClamp}",
+        "lineHeight": 1.3,
+        "letterSpacing": { "value": 0, "unit": "em" },
+        "maxWidth": null,
+        "usage": "Feature card title (e.g., 'AI Meal Logging')."
+      },
+      "card.body": {
+        "fontFamily": "{typography.fontFamilies.ui.value}",
+        "fontWeight": 400,
+        "fontSize": "{typography.sizes.sm.fluid.cssClamp}",
+        "lineHeight": 1.6,
+        "letterSpacing": { "value": 0, "unit": "em" },
+        "maxWidth": { "value": 68, "unit": "ch" },
+        "usage": "Feature card description text."
+      },
+      "form.input": {
+        "fontFamily": "{typography.fontFamilies.ui.value}",
+        "fontWeight": 400,
+        "fontSize": "{typography.sizes.md.fluid.cssClamp}",
+        "lineHeight": 1.3,
+        "letterSpacing": { "value": 0, "unit": "em" },
+        "maxWidth": null,
+        "usage": "Text inside form inputs (email field)."
+      },
+      "form.helper": {
+        "fontFamily": "{typography.fontFamilies.ui.value}",
+        "fontWeight": 400,
+        "fontSize": "{typography.sizes.xs.fluid.cssClamp}",
+        "lineHeight": 1.4,
+        "letterSpacing": { "value": 0, "unit": "em" },
+        "maxWidth": null,
+        "usage": "Helper microcopy (e.g., privacy line)."
+      },
+      "button.label": {
+        "fontFamily": "{typography.fontFamilies.ui.value}",
+        "fontWeight": 600,
+        "fontSize": "{typography.sizes.sm.fluid.cssClamp}",
+        "lineHeight": 1.0,
+        "letterSpacing": { "value": 0.01, "unit": "em" },
+        "maxWidth": null,
+        "usage": "Primary/secondary button text."
+      },
+      "nav.link": {
+        "fontFamily": "{typography.fontFamilies.ui.value}",
+        "fontWeight": 500,
+        "fontSize": "{typography.sizes.sm.fluid.cssClamp}",
+        "lineHeight": 1.4,
+        "letterSpacing": { "value": 0, "unit": "em" },
+        "maxWidth": null,
+        "usage": "Navigation links (if present)."
+      },
+      "footer.text": {
+        "fontFamily": "{typography.fontFamilies.ui.value}",
+        "fontWeight": 400,
+        "fontSize": "{typography.sizes.xs.fluid.cssClamp}",
+        "lineHeight": 1.4,
+        "letterSpacing": { "value": 0, "unit": "em" },
+        "maxWidth": null,
+        "usage": "Footer copyright and small print."
+      },
+      "footer.link": {
+        "fontFamily": "{typography.fontFamilies.ui.value}",
+        "fontWeight": 500,
+        "fontSize": "{typography.sizes.xs.fluid.cssClamp}",
+        "lineHeight": 1.4,
+        "letterSpacing": { "value": 0, "unit": "em" },
+        "maxWidth": null,
+        "usage": "Footer links (Privacy Policy, Terms & Conditions)."
+      }
+    }
+  }
+}
