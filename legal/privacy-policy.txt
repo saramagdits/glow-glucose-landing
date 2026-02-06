@@ -1,0 +1,341 @@
+GLOW GLUCOSE - PRIVACY POLICY
+
+Last Updated: February 5, 2026
+
+Glow Glucose ("we," "us," or "our") respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use the Glow Glucose mobile application (the "App").
+
+Please read this Privacy Policy carefully. By using the App, you agree to the collection and use of information in accordance with this policy.
+
+--------------------------------------------------------------------------------
+
+TABLE OF CONTENTS
+
+1. Information We Collect
+2. How We Use Your Information
+3. Data Storage and Security
+4. Third-Party Services
+5. Data Sharing and Disclosure
+6. Your Privacy Rights
+7. Data Retention
+8. Children's Privacy
+9. Health Information Disclaimer
+10. Changes to This Privacy Policy
+11. Contact Us
+
+--------------------------------------------------------------------------------
+
+1. INFORMATION WE COLLECT
+
+We collect information that you provide directly to us and information that is generated through your use of the App. All data is stored locally on your device unless otherwise specified.
+
+1.1 Personal Information You Provide
+
+When you use the App, you may choose to provide:
+
+- Name: Your first name (optional, used for personalization)
+- Pregnancy/Birthing Stage: Whether you are pregnant, postpartum, or other
+- Due Date: Your expected due date (if pregnant)
+
+1.2 Health and Fitness Data
+
+The App collects and stores the following health-related information locally on your device:
+
+- Blood Glucose Readings: Fasting, pre-meal, post-meal, and general blood glucose values (in mg/dL) along with timestamps
+- Meal Information: Meal types (breakfast, lunch, dinner, snack), dates, and times
+- Nutritional Data: Calories, protein, carbohydrates, and fat content of meals
+- Food/Ingredient Information: Names, quantities, and nutritional details of foods you log
+
+1.3 User Content
+
+- Meal Photos: Photos you take or select for meal logging. These photos are:
+  - Stored locally on your device
+  - Temporarily processed by our nutrition analysis service to identify foods (see Section 4)
+  - Not permanently stored on our servers
+
+1.4 App Settings and Preferences
+
+- Blood Glucose Targets: Your personalized glucose threshold settings
+- Reminder Preferences: Your notification and reminder settings
+- Display Preferences: Chart height and other visual settings
+
+1.5 Automatically Collected Information
+
+The App may automatically collect:
+
+- Device Information: Device type, operating system version (for app compatibility)
+- App Usage Data: Feature interactions for improving app functionality
+- Crash and Performance Data: Error logs and performance metrics to improve app stability
+
+1.6 Purchase Information
+
+If you subscribe to our service:
+
+- Subscription Status: Whether you have an active subscription
+- Transaction Identifiers: Purchase receipts processed through Apple's App Store
+- Subscription Period: Start and expiration dates of your subscription
+
+Note: We do not collect or store your payment card details. All payment processing is handled securely by Apple through the App Store.
+
+--------------------------------------------------------------------------------
+
+2. HOW WE USE YOUR INFORMATION
+
+We use the information we collect for the following purposes:
+
+2.1 App Functionality
+
+- To enable meal logging and blood glucose tracking features
+- To analyze meal photos and identify food items for nutritional information
+- To calculate and display nutritional data for your meals
+- To send reminder notifications for blood glucose testing (if enabled)
+- To personalize your experience based on your settings
+
+2.2 Subscription Management
+
+- To verify your subscription status and provide access to premium features
+- To process subscription purchases and renewals through Apple's App Store
+
+2.3 App Improvement
+
+- To identify and fix bugs and technical issues
+- To improve app performance and user experience
+- To develop new features based on usage patterns
+
+2.4 Communication
+
+- To send you reminders you have enabled (glucose testing reminders)
+- To notify you of important changes to the App or this Privacy Policy
+
+--------------------------------------------------------------------------------
+
+3. DATA STORAGE AND SECURITY
+
+3.1 Local Storage
+
+The majority of your data is stored locally on your device using SQLite database technology. This includes:
+
+- All meal and ingredient records
+- All blood glucose readings
+- Your personal settings and preferences
+
+This means your health data stays on your device and is not transmitted to our servers for storage.
+
+3.2 Security Measures
+
+We implement appropriate technical and organizational measures to protect your information, including:
+
+- Local data encryption on your device (provided by iOS)
+- Secure HTTPS connections for any data transmitted to third-party services
+- No server-side storage of your health data
+
+3.3 Your Responsibility
+
+You are responsible for:
+
+- Maintaining the security of your device
+- Using device passcodes or biometric locks
+- Keeping your device's operating system updated
+
+--------------------------------------------------------------------------------
+
+4. THIRD-PARTY SERVICES
+
+The App uses the following third-party services:
+
+4.1 Passio Nutrition AI
+
+- Purpose: Food recognition and nutritional analysis
+- Data Shared: Meal photos (temporarily processed for food identification)
+- Data Received: Food names, nutritional information
+- Privacy Policy: https://www.passio.ai/privacy-policy
+
+When you take a photo for meal logging, the image is sent to Passio's servers through our secure proxy for food recognition. The image is processed in real-time and is not permanently stored by Passio or us.
+
+4.2 RevenueCat
+
+- Purpose: Subscription and purchase management
+- Data Shared: Anonymous user identifier, purchase transactions
+- Data Received: Subscription status, entitlement information
+- Privacy Policy: https://www.revenuecat.com/privacy
+
+RevenueCat helps us manage subscriptions and does not have access to your health data.
+
+4.3 Apple App Store
+
+- Purpose: Payment processing and app distribution
+- Data Shared: Purchase transactions (handled by Apple)
+- Privacy Policy: https://www.apple.com/legal/privacy/
+
+All payment processing is handled directly by Apple. We never receive or store your payment card information.
+
+4.4 Expo/React Native
+
+- Purpose: App framework and notifications
+- Data Shared: Push notification tokens (if notifications enabled)
+- Privacy Policy: https://expo.dev/privacy
+
+--------------------------------------------------------------------------------
+
+5. DATA SHARING AND DISCLOSURE
+
+5.1 We Do Not Sell Your Data
+
+We do not sell, rent, or trade your personal information or health data to third parties for marketing or advertising purposes.
+
+5.2 Limited Sharing
+
+We may share your information only in the following circumstances:
+
+- Service Providers: With third-party services described in Section 4, solely to provide app functionality
+- Legal Requirements: If required by law, court order, or government request
+- Safety: To protect the rights, property, or safety of Glow Glucose, our users, or others
+- Business Transfers: In connection with a merger, acquisition, or sale of assets (you would be notified of any change in ownership or uses of your information)
+
+5.3 Aggregated Data
+
+We may use aggregated, anonymized data that cannot identify you for research, analytics, or improving our services. This data contains no personal identifiers.
+
+--------------------------------------------------------------------------------
+
+6. YOUR PRIVACY RIGHTS
+
+6.1 Access and Control
+
+Since your data is stored locally on your device, you have direct control over it:
+
+- View Your Data: Access all your meals, glucose readings, and settings within the App
+- Edit Your Data: Modify any information you have entered
+- Delete Your Data: Delete individual records or all data by uninstalling the App
+
+6.2 Notification Preferences
+
+You can manage notification permissions through your device's Settings app at any time.
+
+6.3 Subscription Management
+
+You can manage or cancel your subscription through your Apple ID settings:
+1. Open the Settings app on your device
+2. Tap your name, then tap Subscriptions
+3. Select Glow Glucose to manage or cancel
+
+6.4 California Residents (CCPA Rights)
+
+If you are a California resident, you have the right to:
+
+- Know what personal information we collect
+- Request deletion of your personal information
+- Opt-out of the sale of personal information (we do not sell your data)
+- Non-discrimination for exercising your privacy rights
+
+To exercise these rights, contact us using the information in Section 11.
+
+6.5 European Residents (GDPR Rights)
+
+If you are in the European Economic Area, you have the right to:
+
+- Access your personal data
+- Rectify inaccurate personal data
+- Request erasure of your personal data
+- Restrict processing of your personal data
+- Data portability
+- Object to processing of your personal data
+
+To exercise these rights, contact us using the information in Section 11.
+
+--------------------------------------------------------------------------------
+
+7. DATA RETENTION
+
+7.1 Local Data
+
+Data stored on your device remains there until you delete it or uninstall the App. We do not have access to data stored locally on your device.
+
+7.2 Third-Party Data
+
+- Meal Photos: Processed in real-time by Passio and not permanently stored
+- Subscription Data: Retained by RevenueCat as long as you have an active subscription, subject to their privacy policy
+- Purchase Records: Retained by Apple according to their policies
+
+7.3 After Uninstallation
+
+When you uninstall the App, all locally stored data is permanently deleted from your device.
+
+--------------------------------------------------------------------------------
+
+8. CHILDREN'S PRIVACY
+
+The App is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us so we can take appropriate action.
+
+--------------------------------------------------------------------------------
+
+9. HEALTH INFORMATION DISCLAIMER
+
+The health information collected and displayed by this App is for informational and tracking purposes only. This App is not a medical device and should not be used for medical diagnosis or treatment decisions.
+
+Always consult with your healthcare provider regarding your gestational diabetes management. The nutritional information provided is estimated and may vary based on actual food preparation and portion sizes.
+
+--------------------------------------------------------------------------------
+
+10. CHANGES TO THIS PRIVACY POLICY
+
+We may update this Privacy Policy from time to time. We will notify you of any changes by:
+
+- Updating the "Last Updated" date at the top of this policy
+- Providing notice within the App for material changes
+
+We encourage you to review this Privacy Policy periodically. Your continued use of the App after any changes indicates your acceptance of the updated policy.
+
+--------------------------------------------------------------------------------
+
+11. CONTACT US
+
+If you have questions, concerns, or requests regarding this Privacy Policy or our privacy practices, please contact us at:
+
+Glow Glucose
+6 Sandy Pl
+Canton, CT 06019
+United States
+
+Phone: (631) 680-3319
+Email: info@glowglucose.com
+
+For privacy-specific inquiries, you may also email: info@glowglucose.com
+
+We will respond to your inquiry within 30 days.
+
+--------------------------------------------------------------------------------
+
+APP PRIVACY DETAILS SUMMARY (Apple App Store Privacy Label)
+
+This section summarizes the data collected by Glow Glucose for Apple's App Store privacy nutrition label.
+
+DATA LINKED TO YOU:
+- Health & Fitness: Blood glucose readings, nutritional data
+- User Content: Meal photos (processed, not stored)
+- Identifiers: User ID (for subscription management)
+- Purchases: Purchase history (subscription status)
+
+DATA NOT LINKED TO YOU:
+- Diagnostics: Crash data, performance data
+- Usage Data: App interactions
+
+DATA NOT COLLECTED:
+- Contact Info (email, phone, address)
+- Location Data
+- Contacts
+- Browsing History
+- Search History
+- Sensitive Information
+- Financial Information (payment details handled by Apple)
+
+DATA USE:
+- App Functionality: Primary purpose of all data collection
+- Analytics: Anonymized usage data to improve the app
+- Product Personalization: Settings and preferences
+
+TRACKING:
+This app does not track you across other companies' apps or websites for advertising purposes.
+
+--------------------------------------------------------------------------------
+
+Copyright 2026 Glow Glucose. All rights reserved.

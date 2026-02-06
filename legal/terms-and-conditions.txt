@@ -1,0 +1,245 @@
+GLOW GLUCOSE - TERMS AND CONDITIONS
+END-USER LICENSE AGREEMENT (EULA)
+
+Last Updated: February 5, 2026
+
+Please read these Terms and Conditions carefully before using the Glow Glucose mobile application.
+
+--------------------------------------------------------------------------------
+
+TABLE OF CONTENTS
+
+1. Acknowledgement
+2. Scope of License
+3. Subscription Terms
+4. Health and Medical Disclaimer
+5. Maintenance and Support
+6. Warranty
+7. Product Claims and Limitation of Liability
+8. Intellectual Property Rights
+9. Legal Compliance
+10. Third-Party Terms of Agreement
+11. Third-Party Beneficiary
+12. Privacy
+13. Changes to These Terms
+14. Developer Contact Information
+
+--------------------------------------------------------------------------------
+
+1. ACKNOWLEDGEMENT
+
+This End-User License Agreement ("Agreement") is a legal agreement between you ("End-User" or "you") and Glow Glucose ("Company," "we," "us," or "our"), and not with Apple Inc. ("Apple"). Glow Glucose is solely responsible for the Glow Glucose application ("App" or "Licensed Application") and its content.
+
+By downloading, installing, or using the App, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions. If you do not agree to these terms, do not download, install, or use the App.
+
+This Agreement does not conflict with Apple's Media Services Terms and Conditions, which can be found at: https://www.apple.com/legal/internet-services/itunes/
+
+--------------------------------------------------------------------------------
+
+2. SCOPE OF LICENSE
+
+Glow Glucose grants you a limited, non-exclusive, non-transferable, revocable license to use the App on any Apple-branded products that you own or control, subject to the Usage Rules set forth in Apple's Media Services Terms and Conditions.
+
+This license does not allow you to use the App on any device that you do not own or control, except that the App may be accessed and used by other accounts associated with you via Family Sharing or volume purchasing programs.
+
+You may not:
+- Copy, modify, or distribute the App
+- Reverse engineer, disassemble, or decompile the App
+- Rent, lease, lend, sell, or sublicense the App
+- Remove any proprietary notices from the App
+
+--------------------------------------------------------------------------------
+
+3. SUBSCRIPTION TERMS
+
+3.1 Subscription Model
+
+The Glow Glucose App is available through a monthly subscription. The subscription includes a 3-day free trial period.
+
+3.2 Pricing
+
+- Monthly Subscription: $8.99 USD per month
+- Free Trial: 3 days
+
+3.3 Free Trial
+
+New users receive a 3-day free trial. During the trial period, you have full access to all App features. You will receive a reminder notification one day before your trial ends and payment is charged.
+
+3.4 Billing
+
+After your free trial ends, your subscription will automatically renew and you will be charged $8.99 USD per month unless you cancel before the trial period ends. Payment will be charged to your Apple ID account at confirmation of purchase and upon each renewal.
+
+3.5 Cancellation
+
+You may cancel your subscription at any time. To cancel:
+- Open the Settings app on your device
+- Tap your name, then tap Subscriptions
+- Select Glow Glucose and tap Cancel Subscription
+
+If you cancel, you will retain access to the App until the end of your current billing period. No refunds will be provided for partial subscription periods.
+
+3.6 Price Changes
+
+We reserve the right to change subscription pricing. Any price changes will be communicated in advance and will apply to subsequent billing periods only.
+
+--------------------------------------------------------------------------------
+
+4. HEALTH AND MEDICAL DISCLAIMER
+
+IMPORTANT: PLEASE READ THIS SECTION CAREFULLY.
+
+4.1 Not Medical Advice
+
+The Glow Glucose App is designed to help you track meals, nutritional information, and blood glucose readings for gestational diabetes management. However, the App is NOT intended to provide medical advice, diagnosis, or treatment.
+
+4.2 Consult Your Healthcare Provider
+
+Always consult with a qualified healthcare provider, such as your doctor, endocrinologist, registered dietitian, or certified diabetes educator, before making any decisions about your health or diabetes management. Do not disregard professional medical advice or delay seeking it because of information provided by the App.
+
+4.3 No Doctor-Patient Relationship
+
+Use of the App does not create a doctor-patient relationship between you and Glow Glucose or any of its employees, contractors, or affiliates.
+
+4.4 Accuracy of Information
+
+While we strive to provide accurate nutritional information through our AI-powered food analysis, this information should be used as a general guide only. Nutritional content may vary based on preparation methods, portion sizes, and other factors. Always verify nutritional information with your healthcare team when making dietary decisions related to gestational diabetes.
+
+4.5 Emergency Situations
+
+The App is not designed for emergency situations. If you experience a medical emergency, including but not limited to severe hypoglycemia or hyperglycemia, call emergency services (911 in the United States) or go to the nearest emergency room immediately.
+
+4.6 Individual Health Needs
+
+Gestational diabetes management varies from person to person. The App provides general tracking tools but cannot account for your individual health needs, medications, or conditions. Your healthcare provider should always be your primary source for personalized medical guidance.
+
+--------------------------------------------------------------------------------
+
+5. MAINTENANCE AND SUPPORT
+
+Glow Glucose is solely responsible for providing any maintenance and support services for the App, as specified in this Agreement or as required under applicable law.
+
+Apple has no obligation whatsoever to furnish any maintenance and support services with respect to the App.
+
+For support inquiries, please contact us using the information provided in Section 14 of this Agreement.
+
+--------------------------------------------------------------------------------
+
+6. WARRANTY
+
+6.1 Limited Warranty
+
+Glow Glucose warrants that the App will perform substantially in accordance with its documentation for a period of ninety (90) days from the date of original download.
+
+6.2 Warranty Disclaimer
+
+EXCEPT FOR THE LIMITED WARRANTY ABOVE, THE APP IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+6.3 Apple's Warranty Obligation
+
+In the event of any failure of the App to conform to any applicable warranty, you may notify Apple, and Apple will refund the purchase price (if any) for the App to you. To the maximum extent permitted by applicable law, Apple will have no other warranty obligation whatsoever with respect to the App.
+
+6.4 Developer Warranty Responsibility
+
+Any other claims, losses, liabilities, damages, costs, or expenses attributable to any failure to conform to any warranty are the sole responsibility of Glow Glucose, to the extent required by applicable law.
+
+--------------------------------------------------------------------------------
+
+7. PRODUCT CLAIMS AND LIMITATION OF LIABILITY
+
+7.1 Product Claims
+
+Glow Glucose, not Apple, is responsible for addressing any claims by you or any third party relating to the App or your possession and/or use of the App, including but not limited to:
+
+- Product liability claims
+- Any claim that the App fails to conform to any applicable legal or regulatory requirement
+- Claims arising under consumer protection, privacy, or similar legislation
+
+7.2 Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL GLOW GLUCOSE BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS OR REVENUES, WHETHER INCURRED DIRECTLY OR INDIRECTLY, OR ANY LOSS OF DATA, USE, GOODWILL, OR OTHER INTANGIBLE LOSSES, RESULTING FROM:
+
+- Your use or inability to use the App
+- Any unauthorized access to or use of our servers and/or any personal information stored therein
+- Any interruption or cessation of transmission to or from the App
+- Any bugs, viruses, or other harmful code that may be transmitted through the App
+- Any errors or omissions in any content or for any loss or damage incurred as a result of the use of any content posted, emailed, transmitted, or otherwise made available through the App
+
+7.3 Maximum Liability
+
+IN NO EVENT SHALL GLOW GLUCOSE'S TOTAL LIABILITY TO YOU FOR ALL DAMAGES, LOSSES, AND CAUSES OF ACTION EXCEED THE AMOUNT YOU HAVE PAID TO GLOW GLUCOSE IN THE TWELVE (12) MONTHS PRIOR TO THE CLAIM.
+
+--------------------------------------------------------------------------------
+
+8. INTELLECTUAL PROPERTY RIGHTS
+
+8.1 Infringement Claims
+
+Glow Glucose, not Apple, is responsible for the investigation, defense, settlement, and discharge of any third-party intellectual property infringement claim related to the App or your possession and use of the App.
+
+8.2 Ownership
+
+The App and its original content, features, and functionality are and will remain the exclusive property of Glow Glucose. The App is protected by copyright, trademark, and other intellectual property laws.
+
+--------------------------------------------------------------------------------
+
+9. LEGAL COMPLIANCE
+
+By using the App, you represent and warrant that:
+
+- You are not located in a country that is subject to a U.S. Government embargo, or that has been designated by the U.S. Government as a "terrorist supporting" country
+
+- You are not listed on any U.S. Government list of prohibited or restricted parties
+
+- You will comply with all applicable local, state, national, and international laws and regulations in connection with your use of the App
+
+--------------------------------------------------------------------------------
+
+10. THIRD-PARTY TERMS OF AGREEMENT
+
+You must comply with applicable third-party terms of agreement when using the App. For example, if you have a wireless data service agreement, you are responsible for compliance with that agreement when using the App.
+
+The App may use third-party services, including but not limited to:
+- Nutrition AI services for food analysis
+- Payment processing services
+
+Your use of such third-party services is subject to their respective terms of service and privacy policies.
+
+--------------------------------------------------------------------------------
+
+11. THIRD-PARTY BENEFICIARY
+
+You acknowledge and agree that Apple, and Apple's subsidiaries, are third-party beneficiaries of this Agreement. Upon your acceptance of the terms and conditions of this Agreement, Apple will have the right (and will be deemed to have accepted the right) to enforce this Agreement against you as a third-party beneficiary thereof.
+
+--------------------------------------------------------------------------------
+
+12. PRIVACY
+
+Your use of the App is also governed by our Privacy Policy. Please review our Privacy Policy to understand our practices regarding the collection, use, and disclosure of your personal information.
+
+--------------------------------------------------------------------------------
+
+13. CHANGES TO THESE TERMS
+
+We reserve the right to modify or replace these Terms and Conditions at any time. If we make material changes, we will notify you through the App or by other means prior to the changes becoming effective.
+
+Your continued use of the App after any changes to these Terms and Conditions constitutes your acceptance of the new terms.
+
+--------------------------------------------------------------------------------
+
+14. DEVELOPER CONTACT INFORMATION
+
+If you have any questions, complaints, or claims regarding the App, please contact us at:
+
+Glow Glucose
+6 Sandy Pl
+Canton, CT 06019
+United States
+
+Phone: (631) 680-3319
+Email: info@glowglucose.com
+
+--------------------------------------------------------------------------------
+
+By downloading, installing, or using the Glow Glucose App, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions.
+
+Copyright 2026 Glow Glucose. All rights reserved.
