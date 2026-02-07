@@ -9,6 +9,7 @@ frontend:
       - index.html
       - privacy-policy.html
       - terms-and-conditions.html
+      - support.html
       - styles.css
       - legal.css
       - script.js
