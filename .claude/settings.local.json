@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:pmc.ncbi.nlm.nih.gov)",
+      "WebFetch(domain:www.jmir.org)",
+      "WebFetch(domain:www.parallelhq.com)"
+    ]
+  }
+}
