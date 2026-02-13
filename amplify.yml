@@ -15,6 +15,16 @@ frontend:
       - script.js
       - index.md
       - llms.txt
+      - assets/**
+      - fonts/**
       - legal/**
   cache:
     paths: []
+customHeaders: []
+customRules:
+  - source: /<*>.html
+    target: /<*>.html
+    status: '200'
+  - source: /<*>
+    target: /<*>.html
+    status: '200'
