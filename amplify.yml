@@ -22,6 +22,12 @@ frontend:
     paths: []
 customHeaders: []
 customRules:
+  - source: /
+    target: /index.html
+    status: '200'
+  - source: /<*>/
+    target: /<*>
+    status: '301'
   - source: /<*>.html
     target: /<*>.html
     status: '200'
