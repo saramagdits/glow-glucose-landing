@@ -25,6 +25,15 @@ customRules:
   - source: /
     target: /index.html
     status: '200'
+  - source: /terms-and-conditions/
+    target: /terms-and-conditions
+    status: '301'
+  - source: /privacy-policy/
+    target: /privacy-policy
+    status: '301'
+  - source: /support/
+    target: /support
+    status: '301'
   - source: /<*>/
     target: /<*>
     status: '301'
