@@ -1,6 +1,6 @@
 GLOW GLUCOSE - PRIVACY POLICY
 
-Last Updated: February 5, 2026
+Last Updated: March 2, 2026
 
 Glow Glucose ("we," "us," or "our") respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use the Glow Glucose mobile application (the "App").
 
@@ -142,16 +142,25 @@ You are responsible for:
 
 The App uses the following third-party services:
 
-4.1 Passio Nutrition AI
+4.1 OpenAI Vision
 
-- Purpose: Food recognition and nutritional analysis
+- Purpose: Food recognition and nutritional analysis from meal photos
 - Data Shared: Meal photos (temporarily processed for food identification)
 - Data Received: Food names, nutritional information
-- Privacy Policy: https://www.passio.ai/privacy-policy
+- Privacy Policy: https://openai.com/policies/privacy-policy
 
-When you take a photo for meal logging, the image is sent to Passio's servers through our secure proxy for food recognition. The image is processed in real-time and is not permanently stored by Passio or us.
+When you take a photo for meal logging, the image is sent to OpenAI's servers through our secure proxy for food recognition. The image is processed in real-time and is not permanently stored by OpenAI or us. You can disable AI photo analysis at any time in the app's Profile settings; doing so will prevent photos from being sent to OpenAI.
 
-4.2 RevenueCat
+4.2 Edamam
+
+- Purpose: Food search and nutrition data lookup
+- Data Shared: Food search queries (text only, no personal data)
+- Data Received: Nutritional information for food items
+- Privacy Policy: https://www.edamam.com/privacy
+
+When you search for food items, your search query may be sent to Edamam's servers to retrieve nutritional data. Only the food search term is shared; no personal or health information is included.
+
+4.3 RevenueCat
 
 - Purpose: Subscription and purchase management
 - Data Shared: Anonymous user identifier, purchase transactions
@@ -160,7 +169,7 @@ When you take a photo for meal logging, the image is sent to Passio's servers th
 
 RevenueCat helps us manage subscriptions and does not have access to your health data.
 
-4.3 Apple App Store
+4.4 Apple App Store
 
 - Purpose: Payment processing and app distribution
 - Data Shared: Purchase transactions (handled by Apple)
@@ -168,7 +177,7 @@ RevenueCat helps us manage subscriptions and does not have access to your health
 
 All payment processing is handled directly by Apple. We never receive or store your payment card information.
 
-4.4 Expo/React Native
+4.5 Expo/React Native
 
 - Purpose: App framework and notifications
 - Data Shared: Push notification tokens (if notifications enabled)
@@ -252,7 +261,7 @@ Data stored on your device remains there until you delete it or uninstall the Ap
 
 7.2 Third-Party Data
 
-- Meal Photos: Processed in real-time by Passio and not permanently stored
+- Meal Photos: Processed in real-time by OpenAI and not permanently stored
 - Subscription Data: Retained by RevenueCat as long as you have an active subscription, subject to their privacy policy
 - Purchase Records: Retained by Apple according to their policies
 
@@ -302,6 +311,39 @@ Email: info@glowglucose.com
 For privacy-specific inquiries, you may also email: info@glowglucose.com
 
 We will respond to your inquiry within 30 days.
+
+--------------------------------------------------------------------------------
+
+APP PRIVACY DETAILS SUMMARY (Apple App Store Privacy Label)
+
+This section summarizes the data collected by Glow Glucose for Apple's App Store privacy nutrition label.
+
+DATA LINKED TO YOU:
+- Health & Fitness: Blood glucose readings, nutritional data
+- User Content: Meal photos (processed, not stored)
+- Identifiers: User ID (for subscription management)
+- Purchases: Purchase history (subscription status)
+
+DATA NOT LINKED TO YOU:
+- Diagnostics: Crash data, performance data
+- Usage Data: App interactions
+
+DATA NOT COLLECTED:
+- Contact Info (email, phone, address)
+- Location Data
+- Contacts
+- Browsing History
+- Search History
+- Sensitive Information
+- Financial Information (payment details handled by Apple)
+
+DATA USE:
+- App Functionality: Primary purpose of all data collection
+- Analytics: Anonymized usage data to improve the app
+- Product Personalization: Settings and preferences
+
+TRACKING:
+This app does not track you across other companies' apps or websites for advertising purposes.
 
 --------------------------------------------------------------------------------
 
