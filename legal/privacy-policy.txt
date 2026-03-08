@@ -149,16 +149,15 @@ The App uses the following third-party services:
 - Data Received: Food names, nutritional information
 - Privacy Policy: https://openai.com/policies/privacy-policy
 
-When you take a photo for meal logging, the image is sent to OpenAI's servers through our secure proxy for food recognition. The image is processed in real-time and is not permanently stored by OpenAI or us. You can disable AI photo analysis at any time in the app's Profile settings; doing so will prevent photos from being sent to OpenAI.
+When you take a photo for meal logging, the image is sent through our secure proxy server (api.glowglucose.com) to OpenAI for food recognition. Images are compressed before transmission and processed in real-time. They are not permanently stored by OpenAI or us. You can disable AI photo analysis at any time in the app's Profile settings; doing so will prevent photos from being sent to OpenAI.
 
-4.2 Edamam
+4.2 Glow Glucose API (Food Search & Nutrition)
 
-- Purpose: Food search and nutrition data lookup
-- Data Shared: Food search queries (text only, no personal data)
-- Data Received: Nutritional information for food items
-- Privacy Policy: https://www.edamam.com/privacy
+- Purpose: Food search, barcode lookup, and nutrition data
+- Data Shared: Food search queries, barcode scans, and meal photos (sent through our secure proxy server)
+- Data Received: Food names, nutritional information, serving sizes
 
-When you search for food items, your search query may be sent to Edamam's servers to retrieve nutritional data. Only the food search term is shared; no personal or health information is included.
+When you search for food items or scan a barcode, your query is sent to our secure proxy server (api.glowglucose.com), which retrieves nutritional data on your behalf. Only the search term or barcode is shared; no personal or health information is included. All communication is encrypted via HTTPS.
 
 4.3 RevenueCat
 

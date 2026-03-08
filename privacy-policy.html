@@ -395,44 +395,41 @@
                             </li>
                         </ul>
                         <p>
-                            When you take a photo for meal logging, the image is
-                            sent to OpenAI's servers through our secure proxy
-                            for food recognition. The image is processed in
-                            real-time and is not permanently stored by OpenAI or
-                            us. You can disable AI photo analysis at any time in
-                            the app's Profile settings; doing so will prevent
-                            photos from being sent to OpenAI.
+                            When you take a photo for meal logging, the image
+                            is sent through our secure proxy server
+                            (api.glowglucose.com) to OpenAI for food
+                            recognition. Images are compressed before
+                            transmission and processed in real-time. They are
+                            not permanently stored by OpenAI or us. You can
+                            disable AI photo analysis at any time in the app's
+                            Profile settings; doing so will prevent photos from
+                            being sent to OpenAI.
                         </p>
 
-                        <h3>4.2 Edamam</h3>
+                        <h3>4.2 Glow Glucose API (Food Search & Nutrition)</h3>
                         <ul>
                             <li>
-                                <strong>Purpose:</strong> Food search and
-                                nutrition data lookup
+                                <strong>Purpose:</strong> Food search, barcode
+                                lookup, and nutrition data
                             </li>
                             <li>
                                 <strong>Data Shared:</strong> Food search
-                                queries (text only, no personal data)
+                                queries, barcode scans, and meal photos (sent
+                                through our secure proxy server)
                             </li>
                             <li>
-                                <strong>Data Received:</strong> Nutritional
-                                information for food items
-                            </li>
-                            <li>
-                                <strong>Privacy Policy:</strong>
-                                <a
-                                    href="https://www.edamam.com/privacy"
-                                    target="_blank"
-                                    rel="noopener"
-                                    >https://www.edamam.com/privacy</a
-                                >
+                                <strong>Data Received:</strong> Food names,
+                                nutritional information, serving sizes
                             </li>
                         </ul>
                         <p>
-                            When you search for food items, your search query may
-                            be sent to Edamam's servers to retrieve nutritional
-                            data. Only the food search term is shared; no
-                            personal or health information is included.
+                            When you search for food items or scan a barcode,
+                            your query is sent to our secure proxy server
+                            (api.glowglucose.com), which retrieves nutritional
+                            data on your behalf. Only the search term or
+                            barcode is shared; no personal or health
+                            information is included. All communication is
+                            encrypted via HTTPS.
                         </p>
 
                         <h3>4.3 RevenueCat</h3>
