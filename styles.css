@@ -213,9 +213,40 @@ p {
    ============================================ */
 
 .header {
-  position: relative;
-  z-index: 10;
+  position: sticky;
+  top: 0;
+  z-index: 100;
   padding: 1.5rem 0;
+  background: rgba(250, 247, 243, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Header download badge — desktop only */
+.header-badge {
+  display: none;
+  transition: opacity 0.2s ease;
+}
+
+.header-badge:hover {
+  opacity: 0.8;
+}
+
+.header-badge-img {
+  height: 36px;
+  width: auto;
+}
+
+@media (min-width: 769px) {
+  .header-badge {
+    display: block;
+  }
 }
 
 .logo {
@@ -394,6 +425,22 @@ p {
 
 .cta-button:hover svg {
   transform: translateX(4px);
+}
+
+/* Hero Download Badge */
+.hero-download-badge {
+  display: inline-block;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.hero-download-badge:hover {
+  transform: translateY(-2px);
+  opacity: 0.85;
+}
+
+.hero-badge-img {
+  height: 72px;
+  width: auto;
 }
 
 /* ============================================
@@ -841,6 +888,9 @@ p {
   line-height: var(--lh-body);
   color: var(--muted-foreground);
   margin-bottom: 4rem;
+  max-width: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .features-grid {
@@ -913,7 +963,57 @@ p {
 }
 
 /* ============================================
-   Waitlist Section
+   App Store Banner
+   ============================================ */
+
+.app-store-banner {
+  position: relative;
+  z-index: 1;
+  padding: 4rem 0;
+  background: var(--color-purple);
+}
+
+.app-store-banner-inner {
+  text-align: center;
+}
+
+.app-store-banner-title {
+  font-family: var(--font-sig);
+  font-size: var(--text-3xl);
+  font-weight: var(--w-bold);
+  line-height: var(--lh-snug);
+  color: white;
+  margin-bottom: 0.75rem;
+}
+
+.app-store-banner-subtitle {
+  font-size: var(--text-lg);
+  font-weight: var(--w-regular);
+  line-height: var(--lh-body);
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 2rem;
+  max-width: 50ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.app-store-banner-badge {
+  display: inline-block;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.app-store-banner-badge:hover {
+  transform: translateY(-2px);
+  opacity: 0.85;
+}
+
+.banner-badge-img {
+  height: 64px;
+  width: auto;
+}
+
+/* ============================================
+   Subscribe / Waitlist Section
    ============================================ */
 
 .waitlist {
@@ -1158,8 +1258,23 @@ p {
 }
 
 .footer-logo-text {
-  font-weight: 600;
+  font-family: var(--font-sig);
+  font-weight: var(--w-bold);
   color: var(--foreground);
+}
+
+.footer-download-badge {
+  display: inline-block;
+  transition: opacity 0.2s ease;
+}
+
+.footer-download-badge:hover {
+  opacity: 0.8;
+}
+
+.footer-badge-img {
+  height: 36px;
+  width: auto;
 }
 
 .footer-links {
@@ -1202,12 +1317,22 @@ p {
     max-width: 100%;
   }
 
+  .hero-subtitle {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .hero-title {
     max-width: none;
   }
 
   .hero-title br {
     display: none;
+  }
+
+  .hero-download-badge {
+    display: inline-block;
   }
 
   .features-grid {
@@ -1284,9 +1409,9 @@ p {
     padding: 0 1rem;
   }
 
-  .cta-button {
-    width: 100%;
-    justify-content: center;
+  .hero-download-badge {
+    display: block;
+    text-align: center;
   }
 
   .app-header {
