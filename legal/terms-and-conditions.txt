@@ -54,16 +54,16 @@ You may not:
 
 3.1 Subscription Model
 
-The Glow Glucose App is available through a monthly subscription. The subscription includes a 3-day free trial period.
+The Glow Glucose App is available through a monthly subscription. The subscription includes a 7-day free trial period.
 
 3.2 Pricing
 
 - Monthly Subscription: $8.99 USD per month
-- Free Trial: 3 days
+- Free Trial: 7 days
 
 3.3 Free Trial
 
-New users receive a 3-day free trial. During the trial period, you have full access to all App features. You will receive a reminder notification one day before your trial ends and payment is charged.
+New users receive a 7-day free trial. During the trial period, you have full access to all App features. You will receive a reminder notification one day before your trial ends and payment is charged.
 
 3.4 Billing
 

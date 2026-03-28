@@ -80,7 +80,7 @@ export function PaywallScreen({ onSubscribe, onClose }: PaywallScreenProps) {
               <span className="text-muted-foreground">/month</span>
             </div>
             <div className="text-xs text-primary mt-2 font-medium">
-              3 days free trial • Cancel anytime
+              7 days free trial • Cancel anytime
             </div>
           </div>
         </div>
