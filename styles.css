@@ -1277,6 +1277,32 @@ p {
   width: auto;
 }
 
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.footer-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  color: var(--muted-foreground);
+  transition: color 0.2s ease;
+}
+
+.footer-social-link svg {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.footer-social-link:hover {
+  color: var(--color-purple);
+}
+
 .footer-links {
   display: flex;
   gap: 2rem;
